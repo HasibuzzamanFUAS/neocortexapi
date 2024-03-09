@@ -17,7 +17,6 @@
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "H:\\neocortexapi_Simply-Coders\\source\\NuGet.Config",
           "C:\\Users\\Ikbal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -28,7 +27,6 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "H:\\REPO\\MyWork\\Ex10\\Folder": {},
-          "H:\\neocortexapi_Simply-Coders\\source\\nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
