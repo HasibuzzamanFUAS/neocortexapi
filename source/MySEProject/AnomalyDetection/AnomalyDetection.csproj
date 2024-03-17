@@ -1,5 +1,6 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
+<<<<<<< HEAD
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
 		<TargetFramework>net8.0</TargetFramework>
@@ -7,13 +8,30 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 	</PropertyGroup>
+=======
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Anomaly_Detection</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+>>>>>>> 4dc469accbd4372faaf08190387ffa3c436730b8
 
 	<ItemGroup>
 		<PackageReference Include="NeoCortexApi" Version="1.1.4" />
 	</ItemGroup>
 
+<<<<<<< HEAD
 	<ItemGroup>
 		<Folder Include="predicting\" />
 	</ItemGroup>
 
 </Project>
+=======
+  <ItemGroup>
+    <Folder Include="predicting\" />
+  </ItemGroup>
+
+</Project>
+>>>>>>> 4dc469accbd4372faaf08190387ffa3c436730b8

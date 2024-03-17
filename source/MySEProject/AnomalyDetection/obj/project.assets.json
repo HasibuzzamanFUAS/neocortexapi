@@ -127,26 +127,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\H Zaman Niloy\\.nuget\\packages\\": {}
+    "C:\\Users\\shova\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Fra-UAS\\Winter 23-24\\1 Winter 23 24\\SE\\neocortexapi_Simply-Coders\\source\\MySEProject\\AnomalyDetection\\AnomalyDetection.csproj",
+      "projectUniqueName": "C:\\Git\\se-cloud-2023-2024\\AnamolyDetection\\neocortexapi_Simply-Coders\\source\\MySEProject\\AnomalyDetection\\AnomalyDetection.csproj",
       "projectName": "AnomalyDetection",
-      "projectPath": "E:\\Fra-UAS\\Winter 23-24\\1 Winter 23 24\\SE\\neocortexapi_Simply-Coders\\source\\MySEProject\\AnomalyDetection\\AnomalyDetection.csproj",
-      "packagesPath": "C:\\Users\\H Zaman Niloy\\.nuget\\packages\\",
-      "outputPath": "E:\\Fra-UAS\\Winter 23-24\\1 Winter 23 24\\SE\\neocortexapi_Simply-Coders\\source\\MySEProject\\AnomalyDetection\\obj\\",
+      "projectPath": "C:\\Git\\se-cloud-2023-2024\\AnamolyDetection\\neocortexapi_Simply-Coders\\source\\MySEProject\\AnomalyDetection\\AnomalyDetection.csproj",
+      "packagesPath": "C:\\Users\\shova\\.nuget\\packages\\",
+      "outputPath": "C:\\Git\\se-cloud-2023-2024\\AnamolyDetection\\neocortexapi_Simply-Coders\\source\\MySEProject\\AnomalyDetection\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\H Zaman Niloy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\shova\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Git\\se-cloud-2023-2024\\MyWork\\E10\\nuggetpackages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
