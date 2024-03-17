@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "H:\\neocortexapi_Simply-Coders\\source\\MySEProject\\AnomalyDetection\\AnomalyDetection.csproj": {}
+  },
+  "projects": {
+    "H:\\neocortexapi_Simply-Coders\\source\\MySEProject\\AnomalyDetection\\AnomalyDetection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\neocortexapi_Simply-Coders\\source\\MySEProject\\AnomalyDetection\\AnomalyDetection.csproj",
+        "projectName": "AnomalyDetection",
+        "projectPath": "H:\\neocortexapi_Simply-Coders\\source\\MySEProject\\AnomalyDetection\\AnomalyDetection.csproj",
+        "packagesPath": "C:\\Users\\Ikbal\\.nuget\\packages\\",
+        "outputPath": "H:\\neocortexapi_Simply-Coders\\source\\MySEProject\\AnomalyDetection\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ikbal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "H:\\REPO\\MyWork\\Ex10\\Folder": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "NeoCortexApi": {
+              "target": "Package",
+              "version": "[1.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
