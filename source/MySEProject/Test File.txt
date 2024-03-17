@@ -1,5 +1,0 @@
-This is test file to check the commit link.
-
-Updated
-
-update
