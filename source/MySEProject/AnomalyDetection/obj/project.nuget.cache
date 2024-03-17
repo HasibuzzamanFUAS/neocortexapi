@@ -1,11 +1,20 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "5PJ4Qmg4PvKu5F1gmKQjksxRoJZU7iYf3Hly9Vod25JnQe/wnpRbW1B34zDGBbaR+cUjZG/mkYDpqkDQ7NeB4g==",
+  "success": true,
+  "projectFilePath": "H:\\neocortexapi_Simply-Coders\\source\\MySEProject\\AnomalyDetection\\AnomalyDetection.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ikbal\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Ikbal\\.nuget\\packages\\neocortexapi\\1.1.4\\neocortexapi.1.1.4.nupkg.sha512"
+=======
   "dgSpecHash": "TbglIC8DJzpwke6gnvicGXf6MObKtlUkq+NVGmBkx1tyq5MmpPlmbUZDeCz/2NJg0bzou08OKsbd7Ps1HwtBWQ==",
   "success": true,
   "projectFilePath": "C:\\Git\\se-cloud-2023-2024\\AnamolyDetection\\neocortexapi_Simply-Coders\\source\\MySEProject\\AnomalyDetection\\AnomalyDetection.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shova\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\shova\\.nuget\\packages\\neocortexapi\\1.1.4\\neocortexapi.1.1.4.nupkg.sha512"
+>>>>>>> cdf67715505708b21fb77dbaec27726a9c6a0aaf
   ],
   "logs": []
 }

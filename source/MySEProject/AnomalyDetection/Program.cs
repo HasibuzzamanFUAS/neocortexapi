@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-=======
-﻿using System;
+using System;
 
 
 namespace Anomaly_Detection
@@ -19,5 +15,13 @@ namespace Anomaly_Detection
         }
 
     }
+<<<<<<< HEAD
 }
->>>>>>> f56d0e34438e73b24b594bdfd7e089631f0e7095
+=======
+}
+<<<<<<< HEAD
+>>>>>>>> f56d0e34438e73b24b594bdfd7e089631f0e7095
+>>>>>>> 4dc469accbd4372faaf08190387ffa3c436730b8
+=======
+>>>>>> f56d0e34438e73b24b594bdfd7e089631f0e7095
+>>>>>>> 3e2e0b9feb78425c12986e6901667aab4f3272eb
