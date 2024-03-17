@@ -127,32 +127,52 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\Ikbal\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+=======
+    "C:\\Users\\shova\\.nuget\\packages\\": {}
+>>>>>>> cdf67715505708b21fb77dbaec27726a9c6a0aaf
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "H:\\neocortexapi_Simply-Coders\\source\\MySEProject\\AnomalyDetection\\AnomalyDetection.csproj",
       "projectName": "AnomalyDetection",
       "projectPath": "H:\\neocortexapi_Simply-Coders\\source\\MySEProject\\AnomalyDetection\\AnomalyDetection.csproj",
       "packagesPath": "C:\\Users\\Ikbal\\.nuget\\packages\\",
       "outputPath": "H:\\neocortexapi_Simply-Coders\\source\\MySEProject\\AnomalyDetection\\obj\\",
+=======
+      "projectUniqueName": "C:\\Git\\se-cloud-2023-2024\\AnamolyDetection\\neocortexapi_Simply-Coders\\source\\MySEProject\\AnomalyDetection\\AnomalyDetection.csproj",
+      "projectName": "AnomalyDetection",
+      "projectPath": "C:\\Git\\se-cloud-2023-2024\\AnamolyDetection\\neocortexapi_Simply-Coders\\source\\MySEProject\\AnomalyDetection\\AnomalyDetection.csproj",
+      "packagesPath": "C:\\Users\\shova\\.nuget\\packages\\",
+      "outputPath": "C:\\Git\\se-cloud-2023-2024\\AnamolyDetection\\neocortexapi_Simply-Coders\\source\\MySEProject\\AnomalyDetection\\obj\\",
+>>>>>>> cdf67715505708b21fb77dbaec27726a9c6a0aaf
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\Ikbal\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+=======
+        "C:\\Users\\shova\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> cdf67715505708b21fb77dbaec27726a9c6a0aaf
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+<<<<<<< HEAD
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "H:\\REPO\\MyWork\\Ex10\\Folder": {},
+=======
+        "C:\\Git\\se-cloud-2023-2024\\MyWork\\E10\\nuggetpackages": {},
+>>>>>>> cdf67715505708b21fb77dbaec27726a9c6a0aaf
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
