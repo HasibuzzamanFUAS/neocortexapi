@@ -51,9 +51,15 @@ namespace AnomalyDetection
             sw.Stop();
 
             Console.WriteLine();
-            Console.WriteLine("------------------------------");
+            Console.WriteLine("**********************************");
+            Console.WriteLine();
+            Console.WriteLine("HTM Training initiated...................");
             Console.WriteLine();
             Console.WriteLine("HTM Training completed! Total training time: " + sw.Elapsed.TotalSeconds + " seconds.");
+            Console.WriteLine();
+            Console.WriteLine("*****************************************");
+            Console.WriteLine();
+            Console.WriteLine("Begins the anomaly detection Process...");
             Console.WriteLine();
             Console.WriteLine("------------------------------");
         }
