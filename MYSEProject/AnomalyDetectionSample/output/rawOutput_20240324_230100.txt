@@ -18,10 +18,6 @@ Begins the anomaly detection Process...
 
 ------------------------------
 
-Begins the anomaly detection Process...
-
-------------------------------
-
 Testing the sequence for anomaly detection: 54, 98, 48, 92, 45, 46, 50, 49, 45.
 
 Current element in the testing sequence: 54
