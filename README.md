@@ -33,7 +33,7 @@ Our project is based on NeoCortex API. More details [here](https://github.com/dd
 
 Here is the working priciple in a single graph to understand the steps to follow to execute and develop this project.
 
-(image link)
+![AnomalyDetectionSampleDiagram](https://github.com/HasibuzzamanFUAS/neocortexapi_Simply-Coders/assets/57929194/d232f831-cae8-439c-9fc8-c9b67c20a196)
 
 # Details
 
