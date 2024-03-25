@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Fra-UAS\\Winter 23-24\\1 Winter 23 24\\SE\\neocortexapi_Simply-Coders\\MYSEProject\\AnomalyDetectionSample\\AnomalyDetection.csproj": {}
+    "H:\\neocortexapi_Simply-Coders\\MYSEProject\\AnomalyDetectionSample\\AnomalyDetection.csproj": {}
   },
   "projects": {
-    "E:\\Fra-UAS\\Winter 23-24\\1 Winter 23 24\\SE\\neocortexapi_Simply-Coders\\MYSEProject\\AnomalyDetectionSample\\AnomalyDetection.csproj": {
+    "H:\\neocortexapi_Simply-Coders\\MYSEProject\\AnomalyDetectionSample\\AnomalyDetection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Fra-UAS\\Winter 23-24\\1 Winter 23 24\\SE\\neocortexapi_Simply-Coders\\MYSEProject\\AnomalyDetectionSample\\AnomalyDetection.csproj",
+        "projectUniqueName": "H:\\neocortexapi_Simply-Coders\\MYSEProject\\AnomalyDetectionSample\\AnomalyDetection.csproj",
         "projectName": "AnomalyDetection",
-        "projectPath": "E:\\Fra-UAS\\Winter 23-24\\1 Winter 23 24\\SE\\neocortexapi_Simply-Coders\\MYSEProject\\AnomalyDetectionSample\\AnomalyDetection.csproj",
-        "packagesPath": "C:\\Users\\H Zaman Niloy\\.nuget\\packages\\",
-        "outputPath": "E:\\Fra-UAS\\Winter 23-24\\1 Winter 23 24\\SE\\neocortexapi_Simply-Coders\\MYSEProject\\AnomalyDetectionSample\\obj\\",
+        "projectPath": "H:\\neocortexapi_Simply-Coders\\MYSEProject\\AnomalyDetectionSample\\AnomalyDetection.csproj",
+        "packagesPath": "C:\\Users\\Ikbal\\.nuget\\packages\\",
+        "outputPath": "H:\\neocortexapi_Simply-Coders\\MYSEProject\\AnomalyDetectionSample\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\H Zaman Niloy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ikbal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "H:\\REPO\\MyWork\\Ex10\\Folder": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +39,9 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -56,6 +64,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

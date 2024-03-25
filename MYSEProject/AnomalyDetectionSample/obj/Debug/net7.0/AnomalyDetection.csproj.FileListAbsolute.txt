@@ -18,3 +18,23 @@ E:\Fra-UAS\Winter 23-24\1 Winter 23 24\SE\neocortexapi_Simply-Coders\MYSEProject
 E:\Fra-UAS\Winter 23-24\1 Winter 23 24\SE\neocortexapi_Simply-Coders\MYSEProject\AnomalyDetectionSample\obj\Debug\net7.0\AnomalyDetection.pdb
 E:\Fra-UAS\Winter 23-24\1 Winter 23 24\SE\neocortexapi_Simply-Coders\MYSEProject\AnomalyDetectionSample\obj\Debug\net7.0\AnomalyDetection.genruntimeconfig.cache
 E:\Fra-UAS\Winter 23-24\1 Winter 23 24\SE\neocortexapi_Simply-Coders\MYSEProject\AnomalyDetectionSample\obj\Debug\net7.0\ref\AnomalyDetection.dll
+H:\neocortexapi_Simply-Coders\MYSEProject\AnomalyDetectionSample\bin\Debug\net7.0\AnomalyDetection.exe
+H:\neocortexapi_Simply-Coders\MYSEProject\AnomalyDetectionSample\bin\Debug\net7.0\AnomalyDetection.deps.json
+H:\neocortexapi_Simply-Coders\MYSEProject\AnomalyDetectionSample\bin\Debug\net7.0\AnomalyDetection.runtimeconfig.json
+H:\neocortexapi_Simply-Coders\MYSEProject\AnomalyDetectionSample\bin\Debug\net7.0\AnomalyDetection.dll
+H:\neocortexapi_Simply-Coders\MYSEProject\AnomalyDetectionSample\bin\Debug\net7.0\AnomalyDetection.pdb
+H:\neocortexapi_Simply-Coders\MYSEProject\AnomalyDetectionSample\bin\Debug\net7.0\NeoCortexApi.dll
+H:\neocortexapi_Simply-Coders\MYSEProject\AnomalyDetectionSample\bin\Debug\net7.0\NeoCortexArrayLib.dll
+H:\neocortexapi_Simply-Coders\MYSEProject\AnomalyDetectionSample\bin\Debug\net7.0\NeoCortexEntities.dll
+H:\neocortexapi_Simply-Coders\MYSEProject\AnomalyDetectionSample\obj\Debug\net7.0\AnomalyDetection.csproj.AssemblyReference.cache
+H:\neocortexapi_Simply-Coders\MYSEProject\AnomalyDetectionSample\obj\Debug\net7.0\AnomalyDetection.GeneratedMSBuildEditorConfig.editorconfig
+H:\neocortexapi_Simply-Coders\MYSEProject\AnomalyDetectionSample\obj\Debug\net7.0\AnomalyDetection.AssemblyInfoInputs.cache
+H:\neocortexapi_Simply-Coders\MYSEProject\AnomalyDetectionSample\obj\Debug\net7.0\AnomalyDetection.AssemblyInfo.cs
+H:\neocortexapi_Simply-Coders\MYSEProject\AnomalyDetectionSample\obj\Debug\net7.0\AnomalyDetection.csproj.CoreCompileInputs.cache
+H:\neocortexapi_Simply-Coders\MYSEProject\AnomalyDetectionSample\obj\Debug\net7.0\AnomalyDetection.sourcelink.json
+H:\neocortexapi_Simply-Coders\MYSEProject\AnomalyDetectionSample\obj\Debug\net7.0\AnomalyDetection.csproj.CopyComplete
+H:\neocortexapi_Simply-Coders\MYSEProject\AnomalyDetectionSample\obj\Debug\net7.0\AnomalyDetection.dll
+H:\neocortexapi_Simply-Coders\MYSEProject\AnomalyDetectionSample\obj\Debug\net7.0\refint\AnomalyDetection.dll
+H:\neocortexapi_Simply-Coders\MYSEProject\AnomalyDetectionSample\obj\Debug\net7.0\AnomalyDetection.pdb
+H:\neocortexapi_Simply-Coders\MYSEProject\AnomalyDetectionSample\obj\Debug\net7.0\AnomalyDetection.genruntimeconfig.cache
+H:\neocortexapi_Simply-Coders\MYSEProject\AnomalyDetectionSample\obj\Debug\net7.0\ref\AnomalyDetection.dll
