@@ -1,11 +1,4 @@
 # ML23/24-08 Implement Anomaly Detection Sample
-Team Name: Simply-Coders
-
-Team Members:
-1. [Hasibuzzaman](https://github.com/HasibuzzamanFUAS)
-2. [Suva Sarkar](https://github.com/shovansarkarece)
-3. [Md Ikbal Husen Chowdhury](https://github.com/Ikbal-Chowdhury) 
-
 
 # Introduction:
 
