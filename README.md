@@ -172,7 +172,7 @@ We will use this for prediction in later parts of our project.
 
 ## Execution of the project
 
-Our project is executed in the following way. 
+Our project is executed in the following way.
 
 We are going to use NeoCortex API, which is based on HTM CLA, for implementing our sample project in C#/.NET framework. For training and testing our experiment, we are going to use artificially generated network load data, which contains numerous samples of simple integer sequences in the form of (1,2,3,...). These sequences will be placed in a few commas separated value (CSV) files. There will be two folders inside our main project folder named AnomalyDetectionSample, train_data (or learning) (shown in Figure 2) and predict_data (shows in Figure 3). These folders will contain a few of these CSV files. predict_data folder contains data similar to training, but with added anomalies [Figure 3] randomly added inside it. We are going to read data from both train_data and predict_data folders then train them in our machine by using HTM Model. After that are going to take a part of numerical sequence, trim it in the beginning, from all the numeric sequences of the predicting data and use it to predict anomalies in our data which we have placed earlier, and this will be automatically done, without user interaction.
   ![anamoly train data](https://github.com/HasibuzzamanFUAS/neocortexapi_Simply-Coders/assets/57929194/5e6b583b-c1a7-4a6e-b50c-5207afef200d)
