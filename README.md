@@ -126,7 +126,7 @@ We have used the following configuration. More on [this](https://github.com/ddob
 
 The [RunExperiment](https://github.com/HasibuzzamanFUAS/neocortexapi_Simply-Coders/blob/master/MYSEProject/AnomalyDetectionSample/MultiSequenceLearning.cs#L74) method inside the [MultiSequenceLearning](https://github.com/HasibuzzamanFUAS/neocortexapi_Simply-Coders/blob/master/MYSEProject/AnomalyDetectionSample/MultiSequenceLearning.cs) class file demonstrates how multisequence learning works. To summarize, 
 
-* HTM Configuration is taken and memory of connections are initialized. After that, HTM Classifier, Cortex layer and HomeostaticPlasticityController are initialized.
+* HTM Configuration is taken and memory of connections are initialized. After that, the HTM Classifier, Cortex layer, and HomeostaticPlasticityController are initialized.
 ```csharp
 .......
 var mem = new Connections(cfg);
@@ -138,14 +138,14 @@ HomeostaticPlasticityController hpc = new HomeostaticPlasticityController(mem, n
 .......
 ```
 
-* After that, Spatial Pooler and Temporal Memory is initialized.
+* After that, the Spatial Pooler and Temporal Memory are initialized.
 ```csharp
 .....
 TemporalMemory tm = new TemporalMemory();
 SpatialPoolerMT sp = new SpatialPoolerMT(hpc);
 .....
 ```
-* After that, spatial pooler memory is added to cortex layer and trained for maximum number of cycles.
+* After that, spatial pooler memory is added to the cortex layer and trained for a maximum number of cycles.
 ```csharp
 .....
 layer1.HtmModules.Add("sp", sp);
@@ -153,7 +153,7 @@ int maxCycles = 3500;
 for (int i = 0; i < maxCycles && isInStableState == false; i++)
 .....
 `````
-* After that, temporal memory is added to cortex layer to learn all the input sequences.
+* After that, temporal memory is added to the cortex layer to learn all the input sequences.
 ```csharp
 .....
 layer1.HtmModules.Add("tm", tm);
@@ -162,7 +162,7 @@ foreach (var sequenceKeyPair in sequences){
 }
 .....
 ```
-* Finally, the trained cortex layer and HTM classifier is returned.
+* Finally, the trained cortex layer and HTM classifier are returned.
 ```csharp
 .....
 return new Predictor(layer1, mem, cls)
@@ -179,7 +179,7 @@ We are going to use NeoCortex API, which is based on HTM CLA, for implementing o
 
 Figure 2: Graph of numerical sequences without anomalies which will be used for our training HTM model.
 
-As artificially generated network traffic load data(in percentage, rounded off to the nearest integers) of a sample web server. The values of this load, taken over time, are represented as numerical sequences. For testing our prototype project, we will consider the values inside [45,55] as normal values, and anything outside it to be anomalies. Our predicting data comprises of anomalies between values between [0, 100] placed at random indexes. Combined data from both train_data and predict_data folder are given in Figure 3.
+As artificially generated network traffic load data(in percentage, rounded off to the nearest integers) of a sample web server. The values of this load, taken over time, are represented as numerical sequences. For testing our prototype project, we will consider the values inside [45,55] as normal values and anything outside it to be anomalies. Our predicting data comprises of anomalies between values between [0, 100] placed at random indexes. Combined data from both train_data and predict_data folders are given in Figure 3.
 
  ![anomaly data predict](https://github.com/HasibuzzamanFUAS/neocortexapi_Simply-Coders/assets/57929194/86df8ec3-3c98-408f-b347-2190965dfb0b)
 
@@ -215,7 +215,7 @@ Listing 1: Encoder settings for our project
 
 Minimum and maximum values are set to 0 and 100 respectively, as we are expecting all the values to be in this range only. In other cases, these values must be changed depending on the input data. We have made no changes to the default HTM Config. [5]
 Our project is executed in the following steps:
-a. We have the ReadFolder method of the CSVReader_Folder class to read all the files placed inside a folder. Alternatively, we can use the ReadFile method of CSVReader_File class to read a single file; it works in a similar way, except that it reads a single file. These classes store the read sequences to a list of numeric sequences, which will be used on a number of occasions later. These classes have exception handling implemented inside for handling non-numeric data. Data can be trimmed using the TrimSequences method, which will be used in our unsupervised approach. The trimsequences method trims one to four elements (Numbers 1 to 4 are decided randomly) from the beginning of a numeric sequence and returns it. Both the methods are given in listing 2.
+a. We have the ReadFolder method of the CSVReader_Folder class to read all the files placed inside a folder. Alternatively, we can use the ReadFile method of the CSVReader_File class to read a single file; it works in a similar way, except that it reads a single file. These classes store the read sequences to a list of numeric sequences, which will be used on a number of occasions later. These classes have exception handling implemented inside for handling non-numeric data. Data can be trimmed using the TrimSequences method, which will be used in our unsupervised approach. The trimsequences method trims one to four elements (Numbers 1 to 4 are decided randomly) from the beginning of a numeric sequence and returns it. Both the methods are given in listing 2.
 ```csharp
 public List<List<double>> ReadFolder()
         {
