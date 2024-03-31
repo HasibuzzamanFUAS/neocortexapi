@@ -126,7 +126,7 @@ We have used the following configuration. More on [this](https://github.com/ddob
 
 The [RunExperiment](https://github.com/HasibuzzamanFUAS/neocortexapi_Simply-Coders/blob/master/MYSEProject/AnomalyDetectionSample/MultiSequenceLearning.cs#L74) method inside the [MultiSequenceLearning](https://github.com/HasibuzzamanFUAS/neocortexapi_Simply-Coders/blob/master/MYSEProject/AnomalyDetectionSample/MultiSequenceLearning.cs) class file demonstrates how multisequence learning works. To summarize, 
 
-* HTM Configuration is taken and memory of connections are initialized. After that, HTM Classifier, Cortex layer and HomeostaticPlasticityController are initialized.
+* HTM Configuration is taken and memory of connections are initialized. After that, the HTM Classifier, Cortex layer, and HomeostaticPlasticityController are initialized.
 ```csharp
 .......
 var mem = new Connections(cfg);
@@ -138,7 +138,7 @@ HomeostaticPlasticityController hpc = new HomeostaticPlasticityController(mem, n
 .......
 ```
 
-* After that, Spatial Pooler and Temporal Memory is initialized.
+* After that, the Spatial Pooler and Temporal Memory are initialized.
 ```csharp
 .....
 TemporalMemory tm = new TemporalMemory();
