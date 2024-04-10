@@ -245,7 +245,8 @@ c.	After that, we have the RunHTMTraining method of HTMTraining class, to train 
 .....
 ```csharp
 
-MultiSequenceLearning learning = new MultiSequenceLearning(); predictor = learning.Run(htmInput); 
+MultiSequenceLearning learningAlgorithm = new MultiSequenceLearning();
+            trainedPredictor = learningAlgorithm.Run(htmInput); 
 ```
 .....
 Listing 4: Code demonstrating how data is passed to HTM model using instance of class multisequence learning
@@ -336,6 +337,23 @@ The only downside in our approach is that we cannot detect two anomalies that ar
 
 After running this project, we got the following [Output](https://github.com/HasibuzzamanFUAS/neocortexapi_Simply-Coders/tree/master/MYSEProject/AnomalyDetectionSample/output)
 
-We can observe that the false negative rate is high in our output (0.65). It is desired that the false negative rate should be as lower as possible in an anomaly detection program. Lower false positive rate is also desirable, but not absolutely essential.
+We found Anomaly detection results for Testing the sequence: 54, 98, 48, 92,
+45, 46, 50, 49, 45
+
+FNR = FN / (FN + TP) = 0/ (0+2) = 0
+
+FPR = FP / (FP + TN) = 2/ (2+5) = 0.29
+
+Where, FN = 0, FP = 2, TN = 5, TP = 2.
+
+After running our sample project, we analyzed the
+rawOutput_20240324_230100.txt from output folder of this
+experiment and got the following average results:
+
+• Average FNR of the experiment: 0.22
+
+• Average FPR of the experiment: 0.28
+
+We can observe that the False Negative Rate(FNR) is in our output (0.22). It is desired that the false negative rate should be as lower as possible in an anomaly detection program. Lower false positive rate is also desirable, but not absolutely essential.
 
 Although, it depends on a number of factors, like quantity (the more, the better) and quality of data, and hyperparameters used to tune and train model; more data should be used for training, and hyperparameters should be further tuned to find the most optimal setting for training to get the best results. We were using less amount of numerical sequences as data to demonstrate our sample project due to time and computational constraints, but that can be improved if we use better resources, like cloud.
